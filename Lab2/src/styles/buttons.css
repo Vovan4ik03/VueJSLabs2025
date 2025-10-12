@@ -1,0 +1,17 @@
+.button {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.button.is-primary {
+  background-color: #3b82f6;
+  border-color: #2563eb ;
+}
+
+.button.is-primary:hover {
+  background-color: #2563eb;
+}
+
+.button.is-light {
+  background-color: #e2e8f0;
+}

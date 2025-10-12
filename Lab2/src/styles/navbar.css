@@ -1,0 +1,25 @@
+.navbar-item {
+  color: white !important;
+  position: relative;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-item.is-active {
+  background-color: #2563eb;
+  font-weight: bold;
+}
+
+
+.navbar-item.is-active .active-text {
+  display: inline; 
+  margin-left: 8px;
+  color: #93c5fd;
+  font-size: 0.9rem;
+  font-weight: normal;
+}

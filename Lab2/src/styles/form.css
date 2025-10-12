@@ -1,0 +1,14 @@
+.input,
+.textarea {
+  border-radius: 6px ;
+  border-color: #cbd5e1 ;
+  box-shadow: none ;
+}
+
+.input:focus {
+  border-color: #3b82f6 ;
+}
+
+.field {
+  margin-bottom: 1.5rem;
+}

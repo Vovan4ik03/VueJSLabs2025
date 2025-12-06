@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "profile": "Profile",
+    "cart": "Cart",
+    "products": "Products"
+  },
+  "lang": {
+    "ua": "Ukrainian",
+    "en": "English"
+  },
+  "profile": {
+    "title": "User Profile",
+    "name": "Name",
+    "email": "E-mail",
+    "dateOfBirth": "Date of birth",
+    "address": "Address",
+    "phones": "Phones",
+    "addPhone": "Add phone",
+    "removePhone": "Remove",
+    "save": "Save",
+    "reset": "Reset",
+    "serverError": "Server error: {msg}"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "clear": "Clear cart",
+    "totalCount": "Items count: {count}",
+    "totalPrice": "Total price: {price} UAH",
+    "remove": "Remove"
+  },
+  "products": {
+    "title": "Products",
+    "addToCart": "Add to cart",
+    "price": "Price: {price} UAH"
+  },
+
+ "productNames": {
+  "backpack": "Backpack",
+  "laptopBag": "Laptop bag",
+  "travelBag": "Travel bag"
+  },
+  
+  "validation": {
+    "nameRequired": "validation.nameRequired",
+    "emailRequired": "validation.emailRequired",
+    "emailInvalid": "validation.emailInvalid",
+    "dobRequired": "validation.dobRequired",
+    "addressRequired": "validation.addressRequired",
+    "phoneRequired": "validation.phoneRequired",
+    "phoneInvalid": "validation.phoneInvalid"
+  },
+  "validationMessages": {
+    "nameRequired": "Please enter your name",
+    "emailRequired": "Please enter e-mail",
+    "emailInvalid": "Invalid e-mail",
+    "dobRequired": "Please provide date of birth",
+    "addressRequired": "Please provide address",
+    "phoneRequired": "Phone is required",
+    "phoneInvalid": "Invalid phone format"
+  },
+  "global": {
+    "appTitle": "Profile & Cart",
+    "upperExample": "upper case example",
+    "customModified": "custom modifier"
+  }
+}

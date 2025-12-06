@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "profile": "Профіль",
+    "cart": "Кошик",
+    "products": "Товари"
+  },
+  "lang": {
+    "ua": "Українська",
+    "en": "Англійська"
+  },
+  "profile": {
+    "title": "Профіль користувача",
+    "name": "Ім'я",
+    "email": "E-mail",
+    "dateOfBirth": "Дата народження",
+    "address": "Адреса",
+    "phones": "Телефони",
+    "addPhone": "Додати телефон",
+    "removePhone": "Видалити",
+    "save": "Зберегти",
+    "reset": "Скинути",
+    "serverError": "Серверна помилка: {msg}"
+  },
+  "cart": {
+    "title": "Кошик",
+    "empty": "Кошик порожній",
+    "clear": "Очистити кошик",
+    "totalCount": "Кількість товарів: {count}",
+    "totalPrice": "Загальна сума: {price} грн",
+    "remove": "Прибрати"
+  },
+  "products": {
+    "title": "Товари",
+    "addToCart": "Додати в кошик",
+    "price": "Ціна: {price} грн"
+  },
+
+  "productNames": {
+  "backpack": "Рюкзак",
+  "laptopBag": "Сумка для ноутбука",
+  "travelBag": "Дорожня сумка"
+  },
+  
+  "validation": {
+    "nameRequired": "validation.nameRequired",
+    "emailRequired": "validation.emailRequired",
+    "emailInvalid": "validation.emailInvalid",
+    "dobRequired": "validation.dobRequired",
+    "addressRequired": "validation.addressRequired",
+    "phoneRequired": "validation.phoneRequired",
+    "phoneInvalid": "validation.phoneInvalid"
+  },
+  "validationMessages": {
+    "nameRequired": "Будь ласка, введіть ім'я",
+    "emailRequired": "Будь ласка, введіть e-mail",
+    "emailInvalid": "Некоректний e-mail",
+    "dobRequired": "Вкажіть дату народження",
+    "addressRequired": "Вкажіть адресу",
+    "phoneRequired": "Телефон є обов'язковим",
+    "phoneInvalid": "Некоректний формат телефону"
+  },
+  "global": {
+    "appTitle": "Profile & Cart",
+    "upperExample": "приклад верхнього регістру",
+    "customModified": "кастомний модифікатор"
+  }
+}

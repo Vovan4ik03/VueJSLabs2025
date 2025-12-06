@@ -32,20 +32,20 @@ npm run dev
 ![CartPage-Item](image-3.png)
 
 
-### Functionl
+## Functionl
 
-## Pinia
-<p> інцилізація в файлі src/main.js <p>
-```
+### Pinia
+інцилізація в файлі src/main.js
+
+```sh
 const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate)
-
 app.use(pinia)
 ```
-
+  
 ## i18n
 
-```
+```sh
 import { createI18n } from 'vue-i18n'
 import ua from './locales/ua.json'
 import en from './locales/en.json'
@@ -68,8 +68,8 @@ export const i18n = createI18n({
 })
 ```
 
-### Сторінки
-##ProfilePage.vue
+## Сторінки
+### ProfilePage.vue
 
 - Форма з полями: name, email, address, phones[]
 
@@ -77,7 +77,7 @@ export const i18n = createI18n({
 
 - Телефони можуть додаватися/видалятися
 
-## CartPage.vue
+### CartPage.vue
 
 - Виведення товарів
 
@@ -85,7 +85,7 @@ export const i18n = createI18n({
 
 - Переклади кнопок та заголовків
 
-## ProductsPage.vue
+### ProductsPage.vue
 
 - Вивід продуктів
 

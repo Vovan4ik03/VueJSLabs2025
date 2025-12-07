@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background-color: #f8f9fc;
+  color: #1c1c1e;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.p-toast-message-success {
+  background: #ecfdf5 !important;
+  border-left: 6px solid #10b981 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.p-toast-message-success .p-toast-message-content {
+  background: transparent !important;
+}
+
+.p-toast-message-success .p-toast-message-icon,
+.p-toast-message-success .p-toast-message-text,
+.p-toast-message-success .p-toast-message-close-icon {
+  color: #047857 !important;
+}
+
+
+.p-toast-message .p-button {
+  background: transparent !important;
+  border: none !important;
+  color: #047857 !important;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card-hover {
+  transition: 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 22px rgba(0,0,0,0.08);
+}
+
+
+.p-button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+
+.header {
+  background: #111827 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  border-bottom: 1px solid none !important ;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #2563eb;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 120px 20px 140px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #111827;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #4b5563;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+}
+
+
+.problem .p-card {
+  background: #ffffff !important;
+  color: #1c1c1e !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.problem h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.benefits h2,
+.how h2,
+.pricing h2,
+.faq h2,
+.reviews h2,
+.contact h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.benefits .p-card,
+.benefit-card {
+  background: #ffffff !important;
+  color: #1c1c1e !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+
+.how ul {
+  max-width: 600px;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 18px;
+}
+
+.how li {
+  padding: 12px;
+  border-left: 4px solid #2563eb;
+  background: white;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.pricing .p-card {
+  background: #ffffff !important;
+  color: #1c1c1e !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.pricing .grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.pricing h3 {
+  font-size: 24px;
+  color: #2563eb;
+}
+
+.calc {
+  margin: 40px auto 0;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+  max-width: 420px;
+  text-align: center;
+}
+
+.calc__label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #4b5563;
+  text-align: left;
+}
+
+.calc .p-inputnumber {
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  border: 1px solid #d1d5db !important;
+}
+
+.calc p {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+
+.faq .p-accordion-header-link {
+  font-size: 18px;
+}
+
+
+.review-card {
+  background: #1e293b !important;
+  color: #f1f5f9 !important;
+}
+
+.review-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+
+.review-role {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+
+.review-text {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #9299a2 !important;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+.contact form {
+  display: grid;
+  gap: 16px;
+}
+
+.contact .p-field-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact Card {
+  padding: 20px;
+}
+
+
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  padding: 40px;
+  background: #111827;
+  color: white;
+}
+

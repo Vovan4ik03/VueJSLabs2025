@@ -26,14 +26,21 @@ npm run dev
 
 
 ## Some ScreenShots
+### Calculator Page
 ![CalcPage](image.png)
-Working Calculator
+Working calculator
+
+### Validation
 ![Validation](image-1.png)
 Form registration
-![СopiPro](image-2.png)
-Message for cope promocode
+
+### Copy Promo
+![CopiPro](image-2.png)
+Message for copying promocode
+
+### Result
 ![Result](image-3.png)
-Result
+Final result
 
 
 ## Functionl

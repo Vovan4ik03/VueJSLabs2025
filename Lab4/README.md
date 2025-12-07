@@ -25,17 +25,21 @@ npm run dev
 ```
 
 
-### Some ScreenShots
+## Some ScreenShots
+### Product Page Ua
 ![ProductPage-Ua](image.png)
+### Product Page En
 ![ProductPage-En](image-1.png)
+### Cart Page
 ![CartPage](image-2.png)
+### CartPage-Item
 ![CartPage-Item](image-3.png)
 
 
 ## Functionl
 
 ### Pinia
-інцилізація в файлі src/main.js
+install in file src/main.js
 
 ```sh
 const pinia = createPinia()
@@ -71,24 +75,24 @@ export const i18n = createI18n({
 ## Сторінки
 ### ProfilePage.vue
 
-- Форма з полями: name, email, address, phones[]
+- Form on fields: name, email, address, phones[]
 
-- Валідація працює в реальному часі
+- Validation working in real time
 
-- Телефони можуть додаватися/видалятися
+- Phones can delete/add
 
 ### CartPage.vue
 
-- Виведення товарів
+- Withdrawal of goods
 
-- Додавання/видалення
+- Add/remove
 
-- Переклади кнопок та заголовків
+- Translation of buttons and titles
 
 ### ProductsPage.vue
 
-- Вивід продуктів
+- Product withdrawal
 
-- Переклад назв з productNames.xxx
+- Translation of titles from productNames.xxx
 
-- Додавання в кошик через Pinia
+- Add to cart via Pinia

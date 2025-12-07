@@ -72,7 +72,7 @@ export const i18n = createI18n({
 })
 ```
 
-## Сторінки
+## Pages
 ### ProfilePage.vue
 
 - Form on fields: name, email, address, phones[]
